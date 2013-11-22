@@ -1,7 +1,3 @@
-task wrapper(type: Wrapper) {
-    gradleVersion = '1.8'
-}
-
 apply plugin: 'android'
 
 repositories {
@@ -12,8 +8,8 @@ repositories {
 }
 
 android {
-    compileSdkVersion 18
-    buildToolsVersion "18.1.0"
+    compileSdkVersion 19
+    buildToolsVersion "19.0.0"
 
     defaultConfig {
         minSdkVersion 7
